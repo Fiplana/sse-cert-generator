@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/mocharc.json",
+  "require": "tsx",
+  "extension": "ts",
+  "recursive": true,
+  "timeout": 20000,
+  "exit": true
+}
