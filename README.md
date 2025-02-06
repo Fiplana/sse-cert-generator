@@ -1,6 +1,11 @@
-How to use the package:
+How to use the package:  
 
-```typesript
+Install the package with yarn:
+```
+yarn workspace server add '@write/sse-cert-generator@git+https://github.com/Fiplana/sse-cert-generator.git#master'
+```
+
+```javascript
 import {SseCaCertificate, SseClientCertificate, SseServerCertificate} from "@write/sse-cert-generator/dist/src";
 
 ....
